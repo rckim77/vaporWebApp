@@ -6,7 +6,7 @@
 </head>
 <body>
     <div class="container">
-        <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+        <nav class="navbar fixed-top navbar-toggleable-md navbar-light bg-faded">
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#()navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -16,14 +16,31 @@
                     <li class="nav-item active">
                         <a class="nav-link" href="#()">Home <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#()">Features</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Recipes
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Appetizers</a>
+                            <a class="dropdown-item" href="#">Salads</a>
+                            <a class="dropdown-item" href="#">Chicken</a>
+                            <a class="dropdown-item" href="#">Beef</a>
+                            <a class="dropdown-item" href="#">Vegetarian</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Techniques
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Frying</a>
+                            <a class="dropdown-item" href="#">Roasting</a>
+                            <a class="dropdown-item" href="#">Blanching</a>
+                            <a class="dropdown-item" href="#">Sous Vide</a>
+                        </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#()">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#()">Disabled</a>
+                        <a class="nav-link" href="#">About</a>
                     </li>
                 </ul>
             </div>
