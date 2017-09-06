@@ -2,11 +2,12 @@
 <html>
 <head>
 	<title>#import("title")</title>
-	<link rel="stylesheet" href="/styles/app.css">
+	<link rel="stylesheet" href="/styles/bootstrap.min.css">
+    <link rel="stylesheet" href="/styles/bootstrap-grid.min.css">
 </head>
 <body>
-
-#import("content")
-
+    <div class="container">
+        #import("content")
+    </div>
 </body>
 </html>
