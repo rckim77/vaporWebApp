@@ -4,6 +4,7 @@
 
 #export("content") {
 	<div class="welcome">
+        <h1>Heroku GitHub Hook works!</h1>
 		<img src="/images/it-works.png">
 	</div>
 }
