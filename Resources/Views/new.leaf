@@ -1,0 +1,17 @@
+#extend("base")
+
+#export("title") { What's New }
+
+#export("content") {
+    <div class="row">
+        <div class="card">
+            <div class="card-block">
+                <h4 class="card-title">Lemon Bars with Olive Oil and Sea Salt</h4>
+                <p class="card-text">Make super easy, super delicious lemon bars this weekend!</p>
+                <a href="#" class="btn btn-primary">See Recipe</a>
+            </div>
+        </div>
+    </div>
+}
+
+
