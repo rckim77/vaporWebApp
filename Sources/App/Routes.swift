@@ -14,6 +14,12 @@ final class Routes: RouteCollection {
         
         builder.resource("new", NewController(view))
         
+        builder.resource("featured", FeaturedController(view))
+        
+        builder.resource("allRecipes", AllRecipesController(view))
+        
+        builder.resource("about", AboutController(view))
+        
         /// GET /hello/...
         builder.resource("hello", HelloController(view))
         

@@ -6,7 +6,7 @@
     <div class="jumbotron">
         <h1>Welcome to my recipe site!</h1>
         <p class="lead">This app is meant to make it more fun and convenient to explore recipes and techniques to make home cooking more fun.</p>
-        <a class="btn btn-lg btn-primary" href="../../components/navbar/" role="button">Browse Recipes</a>
+        <a class="btn btn-lg btn-primary" href="/allRecipes" role="button">Browse Recipes</a>
     </div>
     <div class="row">
         <div class="col-md-6">
